@@ -11,7 +11,7 @@ function Photo(){
                 <a href={Login} target="noopener">
                 <img
                     src={Login}
-                    class="block w-full h-48 object-top object-cover"
+                    class="block w-full lg:h-48 object-top object-cover"
                     alt="Login page"
                 />
                 </a>      
