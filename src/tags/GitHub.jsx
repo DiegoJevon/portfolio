@@ -3,8 +3,8 @@ import icon from "../images/GitHub.png"
 
 function GitHub(){
     return(
-        <div className="rounded-md w-24 h-24">
-           <img src={icon}/>
+        <div className="rounded-md w-auto">
+           <img className="w-auto" src={icon}/>
         </div>
     )
 }
