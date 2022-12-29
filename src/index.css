@@ -4,20 +4,23 @@
 
 @layer base{
     h1{
-        @apply text-5xl font-bold uppercase;
+        @apply lg:text-5xl font-bold uppercase;
+        @apply sm:text-3xl font-bold uppercase;
         
         
     }
     h2{
-        @apply text-4xl font-bold;
-        
+        @apply lg:text-4xl font-bold;
+        @apply sm:text-2xl font-bold;
     }
     h3{
-        @apply text-3xl font-medium;
+        @apply lg:text-3xl font-medium;
+        @apply sm:text-xl font-medium;
         
     }
     p{
-        @apply text-2xl;
+        @apply lg:text-2xl;
+        @apply sm:text-lg;
         
     }
 }
