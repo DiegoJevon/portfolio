@@ -7,7 +7,7 @@ function Header(){
 
     return(
         <React.Fragment>
-        <div className="max-sm:py-10 max-sm:px-10 max-lg:px-20 max-sm:mt-8 text-center shadow-md hover:shadow-jevon-dark-tx">
+        <div className="max-sm:py-10 py-24  max-sm:px-10 max-lg:px-20 max-sm:mt-8 text-center shadow-md hover:shadow-jevon-dark-tx">
             <Photo />
             <div className="py-5 items-center text-2xl">
                 <h2 className="py-5">Web Developer <span className="text-jevon-gold"> | </span>Full Stack Developer<span className="text-jevon-gold"> | </span>Database Developer</h2>
