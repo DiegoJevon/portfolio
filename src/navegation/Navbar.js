@@ -23,7 +23,7 @@ function Navbar() {
             </div>
 
             {isMobile
-            ?<div className="inline-block md:hidden text-jevon-gold uppercase font-semibold flex flex-col w-screen">
+            ?<div className="inline-block md:hidden text-jevon-gold uppercase font-semibold flex flex-col w-screen shadow-lg hover:shadow-jevon-dark-tx">
                     <a className="m-1 text-center p-2 text-xl rounded-2xl hover:shadow-md hover:shadow-jevon-gold" href="#aboutme">About Me</a>
                     <a className="m-1 text-center p-2 text-xl rounded-2xl hover:shadow-md hover:shadow-jevon-gold" href="#portfolio">Portfolio</a>
                     <a className="m-1 text-center p-2 text-xl rounded-2xl hover:shadow-md hover:shadow-jevon-gold" href="#contact">Contact</a>
