@@ -21,14 +21,14 @@ import Project2 from "./Project2"
 function Portfolio(){
 
     return(
-        <div className="max-sm:px-10 max-sm:pt-12 max-sm:pb-32 lg:px-24 lg:pt-20 lg:pb-64 shadow-xl hover:shadow-jevon-dark-tx">
+        <div className="max-sm:px-10 max-sm:pt-12 max-sm:pb-32 lg:px-24 lg:pt-20 lg:pb-64 shadow-md hover:shadow-jevon-dark-tx">
             <section id="portfolio" className="px-5 text-center">
                 <h1 className="text-jevon-gold">Portfolio</h1>
                 <div className="pb-4 pt-20">
                     <p>You can take a look into the projects that I've being working on and the technologies used for each one. </p>
                     <p>This website was built using:</p>
                 </div>
-                <div className="inline-flex gap-2 justify-between items-center">
+                <div className="inline-flex max-sm:inline-block gap-2 justify-between items-center">
                     <ReactApp />
                     <Tailwind />
                     <JavaScript />            
@@ -47,7 +47,7 @@ function Portfolio(){
                             
                             
                                 <p className="mt-4 text-center">Technologies used by me in this project:</p>
-                                <div className="inline-flex gap-2 justify-between items-center pb-10">
+                                <div className="inline-flex max-sm:inline-block gap-2 justify-between items-center pb-10">
                                     <Java />
                                     <Bootstrap />   
                                     <HTML />            
@@ -71,7 +71,7 @@ function Portfolio(){
                             
                             
                                 <p className="mt-4 text-center">Technologies used by me in this project:</p>
-                                <div className="inline-flex gap-2 justify-between items-center pb-10 w-full">
+                                <div className="inline-flex max-sm:inline-block gap-2 justify-between items-center pb-10 w-full">
                                     <Python />
                                     <Scrapy />
                                     <Node />            
