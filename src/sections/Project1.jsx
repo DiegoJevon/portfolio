@@ -20,7 +20,7 @@ function Photo(){
                 <a href={Admin} target="noopener">
                 <img
                     src={Admin}
-                    class="block w-full h-48 object-top object-cover"
+                    class="block w-full lg:h-48 object-top object-cover"
                     alt="Admin page"
                 />
                 </a>
@@ -29,7 +29,7 @@ function Photo(){
                 <a href={Admin_User} target="noopener">
                 <img
                     src={Admin_User}
-                    class="block w-full h-48 object-top object-cover"
+                    class="block w-full lg:h-48 object-top object-cover"
                     alt="Admin manage users accounts"
                 />
                 </a>
@@ -38,7 +38,7 @@ function Photo(){
                 <a href={User_Inventory} target="noopener">
                 <img
                     src={User_Inventory}
-                    class="block w-full h-48 object-top object-cover"
+                    class="block w-full lg:h-48 object-top object-cover"
                     alt="User page"
                 />
                 </a>

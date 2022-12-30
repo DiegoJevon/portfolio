@@ -11,7 +11,7 @@ function Photo(){
                 <a href={Home} target="noopener">
                 <img
                     src={Home}
-                    class="block w-full h-48 object-top object-cover"
+                    class="block w-full lg:h-48 object-top object-cover"
                     alt="Landing page"
                 />
                 </a>      
@@ -20,7 +20,7 @@ function Photo(){
                 <a href={Search} target="noopener">
                 <img
                     src={Search}
-                    class="block w-full h-48 object-top object-cover"
+                    class="block w-full lg:h-48 object-top object-cover"
                     alt="Search by category"
                 />
                 </a>
@@ -29,7 +29,7 @@ function Photo(){
                 <a href={Event} target="noopener">
                 <img
                     src={Event}
-                    class="block w-full h-48 object-top object-cover"
+                    class="block w-full lg: h-48 object-top object-cover"
                     alt="Event infotmation"
                 />
                 </a>
