@@ -46,8 +46,8 @@ function Portfolio(){
                                 <p className="py-4 text-lg max-sm:text-md lg:h-40">Inventory Web App. It's able to handle multiple inventory systems, for multiple companies, using the same Web App. Each company has different access, in different systems, not allowing the company's admin access other companies' inventory or user accounts ouside the admin's company. The Web App admin can  access all companies' inventory and all user accounts. </p>
                             
                             
-                                <p className="my-4 text-center">Technologies used by me in this project:</p>
-                                <div className="inline-flex max-md:inline-block justify-between items-center pb-10 w-full min-lg:pt-4">
+                                <p className="mt-4 text-center">Technologies used by me in this project:</p>
+                                <div className="inline-flex max-md:inline-block gap-2 justify-between items-center pb-10">
                                     <Java />
                                     <Bootstrap />   
                                     <HTML />            
@@ -70,8 +70,8 @@ function Portfolio(){
                                 <p className="py-4 text-lg max-sm:text-md lg:h-40">All-in-one platform for digital nomads. My role was being part of the back-end team, responsable for web scraping, consumable APIs, database development and deployment.</p>
                             
                             
-                                <p className="my-4 text-center">Technologies used by me in this project:</p>
-                                <div className="inline-flex max-md:inline-block justify-between items-center pb-10 w-full min-lg:pt-4">
+                                <p className="mt-4 text-center">Technologies used by me in this project:</p>
+                                <div className="inline-flex max-md:inline-block gap-2 justify-between items-center pb-10 w-full">
                                     <Python />
                                     <Scrapy />
                                     <Node />            
