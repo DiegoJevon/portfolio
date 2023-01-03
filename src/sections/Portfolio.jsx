@@ -47,7 +47,7 @@ function Portfolio(){
                             
                             
                                 <p className="mt-4 text-center">Technologies used by me in this project:</p>
-                                <div className="inline-flex max-md:inline-block gap-2 justify-between items-center pb-10">
+                                 <div className="inline-flex max-md:inline-block justify-between items-center pb-10 w-full lg:pt-4">
                                     <Java />
                                     <Bootstrap />   
                                     <HTML />            
@@ -71,7 +71,7 @@ function Portfolio(){
                             
                             
                                 <p className="mt-4 text-center">Technologies used by me in this project:</p>
-                                <div className="inline-flex max-md:inline-block gap-2 justify-between items-center pb-10 w-full">
+                                 <div className="inline-flex max-md:inline-block justify-between items-center pb-10 w-full lg:pt-4">
                                     <Python />
                                     <Scrapy />
                                     <Node />            
