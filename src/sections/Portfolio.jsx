@@ -21,7 +21,7 @@ import Project2 from "./Project2"
 function Portfolio(){
 
     return(
-        <div className="max-lg:px-6 max-lg:pt-12 max-lg:pb-32 min-lg:px-24 min-lg:pt-20 min-lg:pb-64 shadow-md hover:shadow-jevon-dark-tx">
+        <div className="px-6 pt-12 pb-32 px-24 min-md:pt-20 min-md:pb-64 shadow-md hover:shadow-jevon-dark-tx">
             <section id="portfolio" className="px-5 text-center">
                 <h1 className="text-jevon-gold">Portfolio</h1>
                 <div className="pb-4 pt-20">
@@ -35,8 +35,8 @@ function Portfolio(){
                     <Next />
                     <CSS />
                 </div>
-                <div className="min-lg:flex min-lg:items-stretch gap-8 py-10 max-lg:block">
-                    <div className="flex justify-center shadow-md max-sm:my-4 min-lg:w-1/2 p-5 rounded-3xl border-x-2 border-jevon-dark-tx hover:border-jevon-gold hover:shadow-jevon-gold my-4">
+                <div className="xl:flex items-stretch gap-8 py-10 max-lg:block">
+                    <div className="flex justify-center shadow-md max-lg:my-4 xl:w-1/2 p-5 rounded-3xl border-x-2 border-jevon-dark-tx hover:border-jevon-gold hover:shadow-jevon-gold my-4">
                         <div>
                         <h3  className="rounded-lg font-bold text-jevon-gold">Home nVentory</h3>
                             <div className="pt-5">
@@ -60,7 +60,7 @@ function Portfolio(){
                         
                     </div>
 
-                    <div className="flex justify-center shadow-md max-sm:my-4 min-lg:w-1/2 p-5 rounded-3xl border-x-2 border-jevon-dark-tx hover:border-jevon-gold hover:shadow-jevon-gold">
+                    <div className="flex justify-center shadow-md max-lg:my-4 xl:w-1/2 p-5 rounded-3xl border-x-2 border-jevon-dark-tx hover:border-jevon-gold hover:shadow-jevon-gold my-4">
                         <div>
                         <h3  className="rounded-lg font-bold text-jevon-gold">Nodex</h3>
                             <div className="pt-5">
