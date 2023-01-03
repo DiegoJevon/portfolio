@@ -5,22 +5,22 @@
 @layer base{
     h1{
         @apply lg:text-5xl font-bold uppercase;
-        @apply max-sm:text-3xl font-bold uppercase;
+        @apply max-md:text-3xl font-bold uppercase;
         
         
     }
     h2{
         @apply lg:text-4xl font-bold;
-        @apply max-sm:text-2xl font-bold;
+        @apply max-md:text-2xl font-bold;
     }
     h3{
         @apply lg:text-3xl font-medium;
-        @apply max-sm:text-xl font-medium;
+        @apply max-md:text-xl font-medium;
         
     }
     p{
         @apply lg:text-2xl;
-        @apply max-sm:text-lg;
+        @apply max-md:text-lg;
         
     }
 }

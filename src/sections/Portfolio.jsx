@@ -21,22 +21,22 @@ import Project2 from "./Project2"
 function Portfolio(){
 
     return(
-        <div className="max-sm:px-10 max-sm:pt-12 max-sm:pb-32 lg:px-24 lg:pt-20 lg:pb-64 shadow-md hover:shadow-jevon-dark-tx">
+        <div className="max-lg:px-6 max-lg:pt-12 max-lg:pb-32 min-lg:px-24 min-lg:pt-20 min-lg:pb-64 shadow-md hover:shadow-jevon-dark-tx">
             <section id="portfolio" className="px-5 text-center">
                 <h1 className="text-jevon-gold">Portfolio</h1>
                 <div className="pb-4 pt-20">
                     <p>You can take a look into the projects that I've being working on and the technologies used for each one. </p>
                     <p>This website was built using:</p>
                 </div>
-                <div className="inline-flex max-sm:inline-block gap-2 justify-between items-center">
+                <div className="inline-flex max-md:inline-block gap-2 justify-between items-center ">
                     <ReactApp />
                     <Tailwind />
                     <JavaScript />            
                     <Next />
                     <CSS />
                 </div>
-                <div className="lg:flex lg:items-stretch gap-8 py-10 max-sm:block">
-                    <div className="flex justify-center shadow-md max-sm:my-4 lg:w-1/2 p-5 rounded-3xl border-x-2 border-jevon-dark-tx hover:border-jevon-gold hover:shadow-jevon-gold">
+                <div className="min-lg:flex min-lg:items-stretch gap-8 py-10 max-lg:block">
+                    <div className="flex justify-center shadow-md max-sm:my-4 min-lg:w-1/2 p-5 rounded-3xl border-x-2 border-jevon-dark-tx hover:border-jevon-gold hover:shadow-jevon-gold my-4">
                         <div>
                         <h3  className="rounded-lg font-bold text-jevon-gold">Home nVentory</h3>
                             <div className="pt-5">
@@ -46,8 +46,8 @@ function Portfolio(){
                                 <p className="py-4 text-lg max-sm:text-md lg:h-40">Inventory Web App. It's able to handle multiple inventory systems, for multiple companies, using the same Web App. Each company has different access, in different systems, not allowing the company's admin access other companies' inventory or user accounts ouside the admin's company. The Web App admin can  access all companies' inventory and all user accounts. </p>
                             
                             
-                                <p className="mt-4 text-center">Technologies used by me in this project:</p>
-                                <div className="inline-flex max-md:inline-block justify-between items-center pb-10 w-full lg:pt-4">
+                                <p className="my-4 text-center">Technologies used by me in this project:</p>
+                                <div className="inline-flex max-md:inline-block justify-between items-center pb-10 w-full min-lg:pt-4">
                                     <Java />
                                     <Bootstrap />   
                                     <HTML />            
@@ -60,7 +60,7 @@ function Portfolio(){
                         
                     </div>
 
-                    <div className="flex justify-center shadow-md max-sm:my-4 lg:w-1/2 p-5 rounded-3xl border-x-2 border-jevon-dark-tx hover:border-jevon-gold hover:shadow-jevon-gold">
+                    <div className="flex justify-center shadow-md max-sm:my-4 min-lg:w-1/2 p-5 rounded-3xl border-x-2 border-jevon-dark-tx hover:border-jevon-gold hover:shadow-jevon-gold">
                         <div>
                         <h3  className="rounded-lg font-bold text-jevon-gold">Nodex</h3>
                             <div className="pt-5">
@@ -70,8 +70,8 @@ function Portfolio(){
                                 <p className="py-4 text-lg max-sm:text-md lg:h-40">All-in-one platform for digital nomads. My role was being part of the back-end team, responsable for web scraping, consumable APIs, database development and deployment.</p>
                             
                             
-                                <p className="mt-4 text-center">Technologies used by me in this project:</p>
-                                <div className="inline-flex max-md:inline-block justify-between items-center pb-10 w-full lg:pt-4">
+                                <p className="my-4 text-center">Technologies used by me in this project:</p>
+                                <div className="inline-flex max-md:inline-block justify-between items-center pb-10 w-full min-lg:pt-4">
                                     <Python />
                                     <Scrapy />
                                     <Node />            

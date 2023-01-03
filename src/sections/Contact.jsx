@@ -5,7 +5,7 @@ import Email from "../tags/Email";
 
 function Contact(){
     return(
-        <div className="max-sm:px-10 max-sm:pt-12 max-sm:pb-32 lg:px-24 lg:pt-20 lg:pb-64 shadow-md hover:shadow-jevon-dark-tx">
+        <div className="max-lg:px-6 max-lg:pt-12 max-lg:pb-32 min-lg:px-24 min-lg:pt-20 min-lg:pb-64 shadow-md hover:shadow-jevon-dark-tx">
         <section id="contact" className="px-5 text-center">
         <h1 className="text-jevon-gold">Contact</h1>
         <div className="pt-20">        
